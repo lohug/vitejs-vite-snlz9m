@@ -4,8 +4,8 @@ let res = document.querySelector('#result');
 let button = document.querySelector('#exercise');
 let input = document.querySelector('#in_data');
 
-button.addEventListener('click', () => test());
+button.addEventListener('click', () => test(input.value));
 
-function test() {
+function test(in_data) {
   res.innerHTML = 'asdf';
 }
